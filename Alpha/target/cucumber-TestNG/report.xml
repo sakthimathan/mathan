@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.315" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="book cart login and addtoCart" name="check the different login users - Example #1.1" time="0.026">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;stepDefinition.AddToCart.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "stepDefinition.AddToCart.driver" is null
+	at stepDefinition.AddToCart.usersEnterTheAnd(AddToCart.java:19)
+	at ✽.Users enter the "jhonwick" and "Jhonwick@19"(file:///C:/Users/Lenovo/eclipse-workspace/Alpha/src/test/resources/Feature/AddToCart.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Users enter the "jhonwick" and "Jhonwick@19"..........................failed
+When Users click the login button...........................................skipped
+And Users Search the "The Simple Wild"......................................skipped
+And add to the cart in book.................................................skipped
+Then Users check the validation the book is add to cart or not..............skipped
+]]></system-out>
+</testcase>
+<testcase classname="book cart login and addtoCart" name="check the different login users - Example #1.2" time="0.005">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;stepDefinition.AddToCart.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "stepDefinition.AddToCart.driver" is null
+	at stepDefinition.AddToCart.usersEnterTheAnd(AddToCart.java:19)
+	at ✽.Users enter the "batman" and "Batman@1"(file:///C:/Users/Lenovo/eclipse-workspace/Alpha/src/test/resources/Feature/AddToCart.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Users enter the "batman" and "Batman@1"...............................failed
+When Users click the login button...........................................skipped
+And Users Search the "Catching Fire"........................................skipped
+And add to the cart in book.................................................skipped
+Then Users check the validation the book is add to cart or not..............skipped
+]]></system-out>
+</testcase>
+</testsuite>

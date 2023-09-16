@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-15T22:56:45 IST" name="Default suite" finished-at="2023-09-15T22:56:46 IST" duration-ms="1269">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner$Runner@6c284af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-15T22:56:45 IST" name="Default test" finished-at="2023-09-15T22:56:46 IST" duration-ms="1269">
+      <class name="runner.TestRunner$Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner$Runner@6c284af]" started-at="2023-09-15T22:56:45 IST" name="setUpClass" finished-at="2023-09-15T22:56:46 IST" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5bb8f9e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner$Runner@6c284af]" started-at="2023-09-15T22:56:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-15T22:56:46 IST" duration-ms="150" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check the different login users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["book cart login and addtoCart"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "stepDefinition.AddToCart.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "stepDefinition.AddToCart.driver" is null
+at stepDefinition.AddToCart.usersEnterTheAnd(AddToCart.java:19)
+at ✽.Users enter the "jhonwick" and "Jhonwick@19"(file:///C:/Users/Lenovo/eclipse-workspace/Alpha/src/test/resources/Feature/AddToCart.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner$Runner@6c284af]" started-at="2023-09-15T22:56:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-15T22:56:46 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check the different login users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["book cart login and addtoCart"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "stepDefinition.AddToCart.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "stepDefinition.AddToCart.driver" is null
+at stepDefinition.AddToCart.usersEnterTheAnd(AddToCart.java:19)
+at ✽.Users enter the "batman" and "Batman@1"(file:///C:/Users/Lenovo/eclipse-workspace/Alpha/src/test/resources/Feature/AddToCart.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner$Runner@6c284af]" started-at="2023-09-15T22:56:46 IST" name="tearDownClass" finished-at="2023-09-15T22:56:46 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner$Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
